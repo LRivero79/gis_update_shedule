@@ -10,7 +10,8 @@ from openpyxl import load_workbook
 import traceback
 import sys
 
-# =================== VARIBALES LOCALES =====================
+# =================== LOCAL VARIABLES =================================
+
 workspace 	= str(Path(__file__).parents[1])
 excel       	= workspace+"\\EXCEL\\Schedule_sp.xlsx"
 # excel       	= arcpy.GetParameterAsText(0) 	# * Parmeters tools ArcGIS Pro
@@ -25,7 +26,7 @@ id_survey     	= "e867d1ae2aed456b9cc37f3efa38e0c3"
 id_shedule    	= "5089a7be92ad4802af3e385091ad2515" # Produccion
 now		= datetime.now() 
 
-# ======================== FUNCTIONS ===================================== >
+# ======================== FUNCTIONS =====================================
 
 
 def captureError(e,name):
