@@ -16,7 +16,6 @@ excel       	= workspace+"\\EXCEL\\Schedule_sp.xlsx"
 # excel       	= arcpy.GetParameterAsText(0) 	# * Parmeters tools ArcGIS Pro
 name_general 	= "Update_Shedule"
 logs 			= workspace+"\\LOGS\\Logs_%s.log"%name_general
-
 portal      	= "https://andesgeogis.maps.arcgis.com"
 user        	= "andesgeogis"
 password    	= "Mercator1905#"
