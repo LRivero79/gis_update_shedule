@@ -25,7 +25,7 @@ id_shedule    	= "95916317bdfe4b44ab2eb53838dbe882" # Testting
 # id_shedule    	= "5089a7be92ad4802af3e385091ad2515" # Produccion
 now         	= datetime.now() 
 
-# ======================== FUNCTIONS ===================================== 
+# ======================== FUNCTIONS ===================================== >
 
 
 def captureError(e,name):
