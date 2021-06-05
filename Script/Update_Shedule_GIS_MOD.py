@@ -11,11 +11,11 @@ import traceback
 import sys
 
 # =================== VARIBALES LOCALES =====================
-workspace 		= str(Path(__file__).parents[1])
+workspace 	= str(Path(__file__).parents[1])
 excel       	= workspace+"\\EXCEL\\Schedule_sp.xlsx"
 # excel       	= arcpy.GetParameterAsText(0) 	# * Parmeters tools ArcGIS Pro
 name_general 	= "Update_Shedule"
-logs 			= workspace+"\\LOGS\\Logs_%s.log"%name_general
+logs 		= workspace+"\\LOGS\\Logs_%s.log"%name_general
 portal      	= "https://andesgeogis.maps.arcgis.com"
 user        	= "andesgeogis"
 password    	= "Mercator1905#"
@@ -23,7 +23,7 @@ gis         	= GIS(portal,user,password)
 id_survey     	= "e867d1ae2aed456b9cc37f3efa38e0c3"
 # id_shedule	= "95916317bdfe4b44ab2eb53838dbe882" # Testting
 id_shedule    	= "5089a7be92ad4802af3e385091ad2515" # Produccion
-now				= datetime.now() 
+now		= datetime.now() 
 
 # ======================== FUNCTIONS ===================================== >
 
@@ -190,7 +190,7 @@ def updateShedule():
 			feature_to_be_updated.attributes['DURATION'] 	= matching_row['DURATION'].values[0]
 			feature_to_be_updated.attributes['EXEC_DAY'] 	= matching_row['EXEC_DAY'].values[0]
 			feature_to_be_updated.attributes['DAY_REPORT']	= matching_row['DAY_REPORT'].values[0]
-			feature_to_be_updated.attributes['DAY_ACT']		= matching_row['DAY_ACT'].values[0]
+			feature_to_be_updated.attributes['DAY_ACT']     = matching_row['DAY_ACT'].values[0]
 			if matching_row['START_DATE_ACT'].values[0] != "NaT":
 				feature_to_be_updated.attributes['START_DATE_ACT']= matching_row['START_DATE_ACT'].values[0]
 				feature_to_be_updated.attributes['DATE_ACT']= matching_row['DATE_ACT'].values[0]
