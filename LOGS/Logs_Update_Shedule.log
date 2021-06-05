@@ -1,0 +1,24 @@
+
+===========================================================================
+INFO - 04/06/2021, 22:24:39 - START - Script Update_Shedule.
+INFO - 04/06/2021, 22:24:39 -   FUNCTION - Upadete Sehedule
+INFO - 04/06/2021, 22:24:39 -   BEGINNING - 1. Analyst data from Survey123 report.
+INFO - 04/06/2021, 22:24:42 -   END - 1. Analyst data from Survey123 report.
+INFO - 04/06/2021, 22:24:42 -   BEGINNING - 2. Join item id field date.
+INFO - 04/06/2021, 22:24:42 -   END - 2. Join item id field date.
+INFO - 04/06/2021, 22:24:42 -   BEGINNING - 3. Analyst date report min and max group from id.
+INFO - 04/06/2021, 22:24:42 -   END - 3. Analyst date report min and max group from id.
+INFO - 04/06/2021, 22:24:42 -   BEGINNING - 4. Read Excel data.
+INFO - 04/06/2021, 22:24:42 -   END - 4. Read Excel data.
+INFO - 04/06/2021, 22:24:42 -   BEGINNING - 5. Join data Survey123 from excel data.
+INFO - 04/06/2021, 22:24:42 -   END - 5. Join data Survey123 from excel data.
+INFO - 04/06/2021, 22:24:42 -   BEGINNING - 6. Analyst data Calculate days report.
+INFO - 04/06/2021, 22:24:42 -   END - 6. Analyst data Calculate days report.
+INFO - 04/06/2021, 22:24:42 -   BEGINNING - 7. Validate field type from update services.
+INFO - 04/06/2021, 22:24:42 -   END - 7. Validate field type from update services.
+INFO - 04/06/2021, 22:24:42 -   BEGINNING - 8. Update Arcgis Online layer.
+INFO - 04/06/2021, 22:24:49 -   END - 8. Update Arcgis Online layer.
+INFO - 04/06/2021, 22:24:49 -   BEGINNING - 9. Update excel
+INFO - 04/06/2021, 22:24:50 -   END - 9. Update excel
+INFO - 04/06/2021, 22:24:50 -   END - Upadete Sehedule
+INFO - 04/06/2021, 22:24:50 - CLOSING - Script Update_Shedule.

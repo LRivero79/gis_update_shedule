@@ -10,7 +10,7 @@ from openpyxl import load_workbook
 import traceback
 import sys
 # =================== VARIBALES LOCALES =====================
-workspace 		= str(Path(__file__).parents[0])
+workspace 		= str(Path(__file__).parents[1])
 excel       	= workspace+"\\EXCEL\\Schedule_sp.xlsx"
 # excel       	= arcpy.GetParameterAsText(0)
 name_general 	= "Update_Shedule"
