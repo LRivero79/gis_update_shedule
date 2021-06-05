@@ -141,9 +141,9 @@ def updateShedule():
 		dfanalyst[col_date[6]] = pd.to_datetime(dfanalyst[col_date[6]])	
 		write_log(1,2,name)
   
-		name = "6. Analyst data Calculate days report."
-		write_log(1,1,name)
 		# *=========================== Calculate days =============================================
+  		name = "6. Analyst data Calculate days report."
+		write_log(1,1,name)
 		col_task 	= df.columns[1]
 		col_start_date 	= df.columns[2]
 		col_end_date 	= df.columns[3]
@@ -193,11 +193,11 @@ def updateShedule():
 			feature_to_be_updated.attributes['DAY_REPORT']	= matching_row['DAY_REPORT'].values[0]
 			feature_to_be_updated.attributes['DAY_ACT']     = matching_row['DAY_ACT'].values[0]
 			if matching_row['START_DATE_ACT'].values[0] != "NaT":
-				feature_to_be_updated.attributes['START_DATE_ACT']= matching_row['START_DATE_ACT'].values[0]
-				feature_to_be_updated.attributes['DATE_ACT']= matching_row['DATE_ACT'].values[0]
-				feature_to_be_updated.attributes['PERCENTAGE']= matching_row['PERCENTAGE'].values[0]
+				feature_to_be_updated.attributes['START_DATE_ACT']	= matching_row['START_DATE_ACT'].values[0]
+				feature_to_be_updated.attributes['DATE_ACT']		= matching_row['DATE_ACT'].values[0]
+				feature_to_be_updated.attributes['PERCENTAGE']		= matching_row['PERCENTAGE'].values[0]
 			if matching_row[col_status].values[0] != "nan":
-				feature_to_be_updated.attributes['STATUS']= matching_row[col_status].values[0]
+				feature_to_be_updated.attributes['STATUS']	= matching_row[col_status].values[0]
 			features_for_update.append(feature_to_be_updated)
 		flayer = item_fc.layers[0]
 		flayer.edit_features(updates= features_for_update)
