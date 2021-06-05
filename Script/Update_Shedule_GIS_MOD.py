@@ -144,7 +144,7 @@ def updateShedule():
 		name = "6. Analyst data Calculate days report."
 		write_log(1,1,name)
 		# *=========================== Calculate days =============================================
-		col_task 		= df.columns[1]
+		col_task 	= df.columns[1]
 		col_start_date 	= df.columns[2]
 		col_end_date 	= df.columns[3]
 		col_status 		= df.columns[4]
